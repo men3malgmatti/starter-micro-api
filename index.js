@@ -5,10 +5,10 @@ const file = new statik.Server('./dist',{gzip: true});
 
 
 require('http').createServer(function (request, response) {
-    console.log('yoo');
+    
     request.addListener('end', function () {
         //
-        // Serve files!
+        console.log('Serve files!');
         //
         file.serve(request, response);
     }).resume();
