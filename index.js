@@ -1,6 +1,6 @@
 const statik = require('node-static');
 
-const file = new statik.Server('./dist');
+const file = new statik.Server('./dist',{gzip: true});
 
 
 
