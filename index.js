@@ -1,6 +1,15 @@
-var http = require('http');
-http.createServer(function (req, res) {
-    console.log(`Just got a request at ${req.url}!`)
-    res.write('Yo!');
-    res.end();
+const statik = require('node-static');
+
+const file = new statik.Server('./dist');
+
+
+
+require('http').createServer(function (request, response) {
+    console.log('yoo');
+    request.addListener('end', function () {
+        //
+        // Serve files!
+        //
+        file.serve(request, response);
+    }).resume();
 }).listen(process.env.PORT || 3000);

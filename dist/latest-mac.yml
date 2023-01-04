@@ -1,0 +1,11 @@
+version: 0.0.12
+files:
+  - url: Electron Test-0.0.12-mac.zip
+    sha512: T8Erj1qS2BcLnbV9E9LSJXOX3Yu66b2NuITVjuV/BynqBV9NxIE2eG+1cdjvTbAl9aig+61uQNVs1jHNBfz/NQ==
+    size: 87974687
+  - url: Electron Test-0.0.12.dmg
+    sha512: bptMQJFqKSreboekeoCNmQZ+DeHSpxlFQidQ4+I4JifFvfVbLKclXZlv/G6hIr8h7x1BxTTFTr/4uekXljxYGg==
+    size: 91182779
+path: Electron Test-0.0.12-mac.zip
+sha512: T8Erj1qS2BcLnbV9E9LSJXOX3Yu66b2NuITVjuV/BynqBV9NxIE2eG+1cdjvTbAl9aig+61uQNVs1jHNBfz/NQ==
+releaseDate: '2023-01-04T09:46:10.708Z'
