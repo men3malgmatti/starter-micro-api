@@ -1,0 +1,11 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.testElectronMonem
+publish:
+  - provider: generic
+    url: https://electrontest.onrender.com/
+mac:
+  category: your.app.category.personal
+files: []
+electronVersion: 21.2.0
